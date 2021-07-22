@@ -13,7 +13,7 @@ This is GitHub repo for SpectreXR employee test. Here are your tasks:
 
 ---
 
-### Coding Guidelines
+### Project Guidelines
 - Please follow industry standard coding structures, code quality is a point of emphasis in this test.
 - Please comment your code where applicable when intent may not be clear.
 - Please briefly explain your architectural choices in a separate document so we can better understand your design's intent with regards to extensibility, reusability, and maintainability.
