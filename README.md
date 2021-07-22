@@ -11,7 +11,7 @@ This is a GitHub repo for SpectreXR employee test. Here are your tasks:
   * Make a look trigger. When the player is looking at the cube, the cube needs to stop rotating. When the player looks away, the cube continues to rotate as before.
   * Make a radial trigger. When the player gets within one meter of the cube, the cube should disappear. When the player walks away from the cube, it reappears. Bonus points if you make this without triggers or colliders.
 * In the scene there is an Interactable cube. Do the following:
-  * Click and hold the Interactable cube to follow the mouse.
+  * Click and hold the Interactable cube to make it follow the mouse.
   * Create a transparent object which the interactable will be able to collide with.
   * Upon colliding with the object, the interactable snaps in transparent objects place and the transparent object dissapears.
   * When the cube snaps a pop up saying you were successful shows as well as a button to return to the menu scene.
