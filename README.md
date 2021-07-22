@@ -1,5 +1,5 @@
 # SpectreXRTest
-This is a GitHub repo for SpectreXR employee test. Here are your tasks:
+This is a GitHub repo for the SpectreXR employee test. Here are your tasks:
 
 ### Menu Scene
 * Simple scrollable menu with more than one field - though only one field needs to actually work.
