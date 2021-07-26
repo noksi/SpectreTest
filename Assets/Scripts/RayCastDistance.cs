@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class RayCastDistance : RayCastSelect
 {
-    //Color oldColor;
+    Color oldColor;
 
-    //public Color selectionColor;
+    public Color selectionColor;
 
     public float rotation = 0f;
 
@@ -14,13 +14,13 @@ public class RayCastDistance : RayCastSelect
     {
         transform.Rotate(Vector3.up, Time.deltaTime * 0);
         //transform.Rotate(new Vector3(0f, 0f, rotation));
-        //oldColor = target.GetComponent<Renderer>().material.GetColor("Color");
-        //target.GetComponent<Renderer>().material.SetColor("_Color", selectionColor);
+        oldColor = target.GetComponent<Renderer>().material.GetColor("_Color");
+        target.GetComponent<Renderer>().material.SetColor("_Color", selectionColor);
     }
 
     protected override void OnRayCastLeave(GameObject target)
     {
         transform.Rotate(Vector3.up, Time.deltaTime * 30);
-        //target.GetComponent<Renderer>().material.SetColor("_Color", oldColor);
+        target.GetComponent<Renderer>().material.SetColor("_Color", oldColor);
     }
 }

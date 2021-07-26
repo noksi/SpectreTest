@@ -12,6 +12,8 @@ public class RayCastSelect : MonoBehaviour
         //transform.Rotate(Vector3.up, Time.deltaTime * 30);
         //transform.Rotate(new Vector3(0, 0, rotation));
 
+        transform.Rotate(Vector3.up, Time.deltaTime * 30);
+
         RaycastHit hit;
 
         if (Physics.Raycast(transform.position, transform.forward, out hit, Distance, layerMask))
